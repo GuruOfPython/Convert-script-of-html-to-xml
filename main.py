@@ -1,4 +1,5 @@
 import js2xml
+from termcolor import colored
 
 def get_details(self, response):
     width = response.meta['width']
